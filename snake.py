@@ -47,7 +47,7 @@ def gameloop():
     score = 0
     init_velocity = 4
     snake_size = 30
-    fps = 144   # fps = frames per second
+    fps = 60   # fps = frames per second
     while not exit_game:
         if game_over:
             gameWindow.fill(white)
